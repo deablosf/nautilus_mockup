@@ -17,7 +17,7 @@
   padding-right: 2vw;
   display: flex;
   align-items: center;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .logo{
@@ -42,4 +42,17 @@
 
 a{
   text-decoration: none;
+}
+
+a:hover{
+  color: #ffb618
+  ;
+}
+
+.subBtn{
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  height: 35px;
 }
