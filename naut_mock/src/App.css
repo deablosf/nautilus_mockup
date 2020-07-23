@@ -1,0 +1,45 @@
+.App{
+  height: 200vh;
+  background-image: url();
+}
+
+.App-header{
+  background-color: blue;
+  width: 100vw;
+  height: 12vh;
+
+}
+
+.Nav{
+  width: 96vw;
+  height: 12vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+}
+
+.logo{
+  width: 219px;
+  height: 60px;
+  padding-right: 8vw;
+}
+
+.logoI{
+  width: 188px;
+  height: 60px;
+  object-fit: cover;
+  object-position: 0% 0px;
+}
+
+.links{
+  width: 80vw;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a{
+  text-decoration: none;
+}
