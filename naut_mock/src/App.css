@@ -1,3 +1,65 @@
+.match{
+  background-image: url(./assets/matches.png);
+  height: 100vh;
+  width: 100vw;
+  background-size: 100%;
+  background-position-y: -49vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.issue{
+ font-size: 16px;
+ font-weight: 700;
+}
+
+.cata{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 68px;
+  font-weight: 900;
+}
+
+.agaent{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.splBtn{
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: dotted gray;
+  margin-bottom: 2vh;
+  margin-top: 1vh;
+}
+
+.splBtn2{
+  background-color: black;
+  color: white;
+  height: 40px;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.splBtn2:hover{
+  background-color: #ffb618;
+}
+
+.down{
+  margin-top: 30vh;
+}
+
+/* ------------------------------------------
+App */
+
 .App{
 
   background-image: url();
@@ -7,7 +69,6 @@
   background-color: white;
   width: 100vw;
   height: 12vh;
-
 }
 
 .Nav{
@@ -19,6 +80,7 @@
   justify-content: center;
   align-items: center;
   font-weight: 700;
+  z-index: 1;
 }
 
 .logo{
@@ -35,7 +97,7 @@
 }
 
 .links{
-  width: 40vw;
+  width: 50vw;
   font-size: 13px;
   display: flex;
   justify-content: space-evenly;
@@ -47,6 +109,17 @@ a{
 }
 
 a:hover{
+  color: #ffb618;
+}
+
+.news{
+  background-color: transparent;
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.news:hover{
   color: #ffb618;
 }
 
@@ -105,4 +178,13 @@ Landing */
 .readBtn:hover{
   color: #ffb618;
   border: 2px solid #ffb618;
+}
+
+/* ----------------------------------------------
+Content */
+
+.content{
+  z-index: -auto;
+  height: 150vh;
+  width: 100vw;
 }

@@ -9,7 +9,6 @@ class Landing extends Component {
                     <div className="title">WHY THE LAWS OF PHYSICS ARE</div>
                     <div className="title">INEVITABLE</div>
                     <button className="readBtn">READ NOW</button>
-                    
                 </div>
             </div>
         )

@@ -1,7 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component, useState }  from 'react';
 
-class Header extends Component {
-    render() {
+
+function Header() {
+        
         return (
             <div className="App">
                 <header className="App-header">
@@ -11,7 +12,7 @@ class Header extends Component {
                         <p><a href="http://nautil.us/issues">ISSUES</a></p>
                         <p><a href="http://nautil.us/#">TOPICS</a></p>
                         <p><a href="http://nautil.us/blog">BLOGS</a></p>
-                        <p><a href="">NEWSLETTERS</a></p>
+                        <p><div><button type="button" className="collapsible" onClick>NEWSLETTERS</button></div></p>
                         <p>
                             <a className="social" href="http://www.facebook.com/NautilusMag">
                                 <img src={require('../assets/icons8-facebook-f-13plain.png')}
@@ -31,12 +32,7 @@ class Header extends Component {
                 </header>
             </div>
         )
-    }
+    
 }
 
 export default Header
-
-{/* <img src="https://img.icons8.com/material-sharp/14/000000/facebook-f.png"
-       onMouseOver={this.src = require('../../../common/assets/network.png')}
-       onMouseOut={this.src = require('../../../common/assets/network-inactive.png')} 
-       /> */}
